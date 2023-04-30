@@ -34,7 +34,10 @@ Ratings Table: <br>
 Reviews Table: <br>
 	product_id INT NOT NULL AUTO_INCREMENT,
 	reviews INT(50) NOT NULL,
-	PRIMARY KEY(product_id)
+	PRIMARY KEY(product_id) <br>
+	
+https://sites.google.com/chromium.org/driver/?pli=1 <br>
+This website is where I downloaded the Google Chrome driver to allow selenium to control my Chrome browser to automate the web scraping process. Without this, I would have had to manually scrape every individual product information.
 ***
 ### Notebooks
 ***
