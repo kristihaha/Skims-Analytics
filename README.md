@@ -2,6 +2,7 @@
 
 ### Project Name: Exploring Skims' Best-Selling Products
 <br>  
+<br/>
 
 
 ### Project Objective
