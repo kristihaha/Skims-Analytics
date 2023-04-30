@@ -1,6 +1,6 @@
 # Sql-Project
 
-### Project Name: Exploring Skims' Best-Selling Products
+### Project Name: Exploring Skims' Best-Selling Products  
 
 ### Project Objective
 ##### What problem are you solving?
