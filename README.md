@@ -14,23 +14,23 @@ Skims is an American women’s clothing wear brand founded by three women and ha
 This project relates to the job description as it will allow stakeholders to make data-driven decisions within the best selling products at Skims. As the Data Analyst, I will analyze data to gain more insight on the customers needs while accelerating the growth of the business. I will be sharing these insights in layman's terms with various stakeholders which will allow them to better understand their business. 
 ***
 ### Data
-https://skims.com/collections/best-sellers. 
+https://skims.com/collections/best-sellers <br>. 
 This data source was used to create all four tables in my database (inventory, category, ratings, reviews). I scraped the product name, price, category, average ratings, and reviews and consolidated it into a single database.  
 Inventory Table: 	
   product_id INT NOT NULL AUTO_INCREMENT,
   name VARCHAR(255) NOT NULL,
 	price VARCHAR(10) NOT NULL,
-	PRIMARY KEY(product_id). 
+	PRIMARY KEY(product_id)
 Category Table:
 	product_id INT NOT NULL AUTO_INCREMENT,
 	name VARCHAR(255) NOT NULL,
 	category VARCHAR(50) NOT NULL,
-	PRIMARY KEY(product_id). 
+	PRIMARY KEY(product_id)
 Ratings Table:
  	product_id INT NOT NULL AUTO_INCREMENT,
 	link VARCHAR(255) NOT NULL,
 	rating FLOAT(50) NOT NULL,
-	PRIMARY KEY(product_id). 
+	PRIMARY KEY(product_id)
 Reviews Table:
 	product_id INT NOT NULL AUTO_INCREMENT,
 	reviews INT(50) NOT NULL,
