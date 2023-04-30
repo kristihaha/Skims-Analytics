@@ -1,6 +1,7 @@
 # Sql-Project
 
 ### Project Name: Exploring Skims' Best-Selling Products
+
 ### Project Objective
 ##### What problem are you solving?
 Skims currently has over 50 various products on their best sellers tab on their webpage. While it is clear that these products 
