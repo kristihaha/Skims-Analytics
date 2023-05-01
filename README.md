@@ -33,11 +33,13 @@ Reviews Table: <br>
 	product_id INT NOT NULL AUTO_INCREMENT,
 	reviews INT(50) NOT NULL,
 	PRIMARY KEY(product_id) <br>
-	
-https://sites.google.com/chromium.org/driver/?pli=1 <br>
-This website is where I downloaded the Google Chrome driver to allow selenium to control my Chrome browser to automate the web scraping process. Without this, I would have had to manually scrape every individual product information.
 ***
 ### Notebooks
+https://github.com/kristihaha/Skims-Analytics/blob/main/data_collection.ipynb <br>
+This notebook contains the data that I web scraped from skims.com best sellers page. I used this data to do sql queries to gain more insight on the best selling products/collections that are currently sold at Skims. <br>
+
+https://github.com/kristihaha/Skims-Analytics/blob/main/sql_analysis.ipynb <br>
+This notebook contains the SQL queries I ran to gain more insight on the best selling products at Skims. It includes five exploratory queries as well as three additional queries that tie into my primary question of: Which products/collections are the most popular within the Best Sellers page and why? <br>
 ***
 ### Future Improvements
 With more time, I would have liked to scraped more relevant data to have more data to work with. The four tables that I have made are relatively simple and contain just enough measures to analyze the 52 products on the best sellers page. I would have liked to scrape all reviews for all products within the best sellers rather than just the total count of reviews. It would have been interesting to see exactly what customers like/dislike within each product. Looking further into key words could have been useful for stakeholders to understand what they should continue doing or stop doing for each product. For example, if customers consistently mention how the sizing is not true to size, Skims would know that they need to fix the sizing on the product to satisfy the customers. By only scraping the average rating, Skims is limited to truly understanding exactly what the ratings consist of.
