@@ -15,23 +15,23 @@ This project relates to the job description as it will allow stakeholders to mak
 https://skims.com/collections/best-sellers <br>
 This data source was used to create all four tables in my database (inventory, category, ratings, reviews). I scraped the product name, price, category, average ratings, and reviews and consolidated it into a single database. <br>
 Inventory Table: <br>	
-  product_id INT NOT NULL AUTO_INCREMENT,
-  name VARCHAR(255) NOT NULL,
-	price VARCHAR(10) NOT NULL,
+  product_id INT NOT NULL AUTO_INCREMENT, <br>	
+  name VARCHAR(255) NOT NULL, <br>	
+	price VARCHAR(10) NOT NULL, <br>	
 	PRIMARY KEY(product_id) <br>
 Category Table: <br>
-	product_id INT NOT NULL AUTO_INCREMENT,
-	name VARCHAR(255) NOT NULL,
-	category VARCHAR(50) NOT NULL,
+	product_id INT NOT NULL AUTO_INCREMENT, <br>	
+	name VARCHAR(255) NOT NULL, <br>	
+	category VARCHAR(50) NOT NULL, <br>	
 	PRIMARY KEY(product_id) <br>
 Ratings Table: <br>
- 	product_id INT NOT NULL AUTO_INCREMENT,
-	link VARCHAR(255) NOT NULL,
-	rating FLOAT(50) NOT NULL,
+ 	product_id INT NOT NULL AUTO_INCREMENT, <br>	
+	link VARCHAR(255) NOT NULL, <br>	
+	rating FLOAT(50) NOT NULL, <br>	
 	PRIMARY KEY(product_id) <br>
 Reviews Table: <br>
-	product_id INT NOT NULL AUTO_INCREMENT,
-	reviews INT(50) NOT NULL,
+	product_id INT NOT NULL AUTO_INCREMENT, <br>	
+	reviews INT(50) NOT NULL, <br>	
 	PRIMARY KEY(product_id) <br>
 ***
 ### Notebooks
