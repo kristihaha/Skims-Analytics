@@ -1,4 +1,4 @@
-# Sql-Project
+# Skims-Analytics
 
 ### Project Name: Exploring Skims' Best-Selling Products
 ***
